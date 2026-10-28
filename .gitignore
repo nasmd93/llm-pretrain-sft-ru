@@ -1,0 +1,13 @@
+# Игнорируем тяжелые веса моделей (они будут на Hugging Face)
+models/pretrained_llama/
+models/qwen_sft_final/
+
+# Игнорируем сырые и обработанные данные (тексты книг)
+data/raw/
+data/processed/
+
+# Системный мусор
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
